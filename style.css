@@ -255,6 +255,8 @@ footer .linha2 a:first-child{
     }
     #subTitle{
         font-size: 26px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
     form{
         width: 95%;
@@ -269,6 +271,17 @@ footer .linha2 a:first-child{
     }
     form input{
         font-size: 18px;
+    }
+
+    /* footer */
+    footer .linha1{
+        flex-direction: column;
+    }
+    footer .endereco{
+        width: 95%;
+        font-size: 18px;
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
 
 
