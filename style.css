@@ -1,10 +1,9 @@
 body{
     margin: 0px;
     padding: 0px;
-    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 35%, rgba(12, 112, 242, 0) 40%),
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 25%, rgba(12, 112, 242, 0) 30%),
     linear-gradient(0deg, #303030, #303030),
     linear-gradient(0deg, #BABABA, #BABABA);
-    
 }
 
 /* Menu de navegacao principal */
@@ -146,4 +145,131 @@ input[type="checkbox"]{
     color: white;
     box-shadow: 0px 6px 4px rgba(12, 112, 242, 0.25);
     cursor: pointer;
+}
+
+/* Footer */
+
+footer{
+    background-color: #0C70F2;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.linha1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer h5{
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 30px;
+    text-align: center;
+    background-color: #303030;
+    border-radius: 10px;
+}
+#escola{
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+}
+#DNC{
+    margin-top: 9px;
+    padding: 10px;
+}
+footer ul{
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    
+}
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 18px;
+}
+footer ul li{
+    margin-bottom: 15px;
+}
+footer ul li a:hover{
+    color: #303030;
+}
+.endereco{
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 30px;
+    text-align: center;
+}
+footer .linha2{
+    display: flex;
+    justify-content: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;    
+}
+footer .linha2 a{
+    color: white;
+    margin: 10px 0px 10px 0px;
+    text-decoration: none;
+    padding: 10px;
+}
+footer .linha2 a:first-child{
+    border-right: 3px solid white;
+}
+
+@media only screen and (max-width: 600px){
+   /* Menu */
+    #principal{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: 0;
+    }
+    #menu{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    #menu a{
+        height: 50px;
+        text-align: center;
+        justify-content: center;
+    }
+    #principal button{
+        text-align: center;
+    }
+    /* section */
+     #title{
+        font-size: 36px;
+    }
+    #subTitle{
+        font-size: 26px;
+    }
+    form{
+        width: 95%;
+        font-size: 20px;
+    }
+    .checkBox label{
+        font-size: 16px ;
+    }
+    input[type="checkbox"]{
+        transform: scale(1.3);
+        margin-top: 10px;
+    }
+    form input{
+        font-size: 18px;
+    }
+
+
 }
